@@ -6,11 +6,13 @@
   "permissions": [
     "activeTab",
     "storage",
-    "contextMenus"
+    "contextMenus",
+    "scripting"
   ],
   "host_permissions": [
     "https://*/",
-    "http://localhost:*/"
+    "http://localhost:*/",
+    "https://www.gstatic.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
